@@ -18,6 +18,11 @@ void setup()
     
 }
 
+void draw() 
+{
+    happy(xCenter, yCenter);
+}
+
 void happy(int xCenter, int yCenter)
 {
   //set variable values
@@ -56,9 +61,4 @@ void happy(int xCenter, int yCenter)
       faceHeight/2,
       0,
       PI);  
-}
-
-void draw() 
-{
-    happy(xCenter, yCenter);
 }
